@@ -34,17 +34,17 @@ SELECT COUNT(DISTINCT species_id) AS total_species FROM observations;
 
 
 -- MISSION 4
-ELECT * FROM observations
+SELECT * FROM observations
 WHERE region_id = 2;
 
 
 -- MISSION 5
-ELECT * FROM observations
+SELECT * FROM observations
 WHERE observation_date = '1998-08-08';
 
 
 -- MISSION 6
-ELECT region_id, COUNT(*) AS total_observations
+SELECT region_id, COUNT(*) AS total_observations
 FROM observations
 GROUP BY region_id
 ORDER BY total_observations DESC;
@@ -90,7 +90,7 @@ GROUP BY region, species.scientific_name
 ORDER BY region, total DESC;
 
 --MISSION 13
-NSERT INTO observations (
+INSERT INTO observations (
     species_id, region_id, observer, observation_date, count
 ) VALUES (
     3, 2, 'analyst_test', '2024-12-01', 1
