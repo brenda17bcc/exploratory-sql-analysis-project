@@ -96,11 +96,4 @@ NSERT INTO observations (
     3, 2, 'analyst_test', '2024-12-01', 1
 );
 
---MISSION 14
-UPDATE species
-SET scientific_name = 'Panthera onca'
-WHERE scientific_name = 'Panthera oncca';
 
---MISSION 15
-DELETE FROM observations
-WHERE id = 999; -- Replace with a valid ID
