@@ -1,59 +1,41 @@
-<!-- hide -->
-# SQL Project: Global Life Institute Data Detectives
-<!-- endhide -->
+# 🔍 Análisis Exploratorio con SQL — Biodiversidad y Cambio Climático
 
-> Have you finished the SQL Bolt interactive exercises? We strongly recommend doing them before moving forward with this project.
+Proyecto de análisis exploratorio de datos (*EDA*) sobre **biodiversidad y cambio climático**, utilizando datos reales del portal **GBIF**. El objetivo es explorar y analizar la información mediante consultas SQL para descubrir patrones y tendencias.
 
-This is what you will learn during this project:
+## 🎯 Objetivo
 
-- Use a preloaded database with pre-existing data.
-- Execute SQL statements to explore and analyze data in a biodiversity and climate change scenario.
-- Practice inserting, updating, and deleting relevant data as part of a data quality maintenance simulation.
-- Use SQL Alchemy, the industry's most popular library for connecting to SQL databases.
-- Use Pandas to display the results of your queries as DataFrames.
+Trabajar con una base de datos precargada para explorar datos de biodiversidad, ejecutar consultas SQL y comunicar los hallazgos de forma clara.
 
-Within this repository, you will find a file named `./INSTRUCTIONS.md` with the necessary steps to complete it.
+## 🔧 ¿Qué se hace en el proyecto?
 
-<how-to-start>
-  
-## 🌱 How to start this project
+- **Exploración y análisis** de datos en un escenario de biodiversidad y cambio climático.
+- **Consultas SQL** para extraer y analizar información de la base de datos.
+- **Inserción, actualización y eliminación** de datos como parte de una simulación de mantenimiento de calidad de datos.
+- **Visualización de resultados** de las consultas como DataFrames.
 
-This project comes with the necessary files to start working immediately.
+## 🛠️ Tecnologías
 
-We recommend opening this very same repository using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command. 
+- **SQL**
+- **Python**
+- **SQLAlchemy** (conexión a la base de datos)
+- **Pandas** (mostrar resultados como DataFrames)
 
-This is the repository you need to fork and open:
+## 📚 Conceptos practicados
 
-```text
-https://github.com/4GeeksAcademy/exploratory-sql-analysis-project
+- Escritura de consultas SQL para exploración de datos
+- Conexión a bases de datos con SQLAlchemy
+- Manipulación de datos (INSERT, UPDATE, DELETE)
+- Integración de SQL con Pandas
+
+## 🚀 Cómo ejecutarlo
+
+1. Clona el repositorio:
+```bash
+   git clone https://github.com/brenda17bcc/exploratory-sql-analysis-project.git
 ```
+2. Abre el proyecto en GitHub Codespaces (recomendado) o en tu entorno local.
+3. Abre el archivo `./src/sql/queries.sql` y ejecuta cada ejercicio.
 
-**👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
+---
 
-Once your project and code have finished opening, you can go ahead and open the `./src/sql/queries.sql` file and start solving each exercise inside the notebook.
-
-</how-to-start>
-
-## 🚀 Make Your Work Visible
-
-One of the main goals of this project is to showcase real and applied skills on your professional profile. You worked with real open data from the [GBIF](https://www.gbif.org/) portal, executed SQL queries, analyzed biodiversity, and visualized valuable patterns.
-
-Publish an insight on LinkedIn that demonstrates analytical thinking based on real data.
-
-### What to Share?
-Based on your analysis, write one or two sentences summarizing what you discovered. The goal is to communicate your findings objectively, briefly, and backed by data. Add a chart if you like, and use hashtags to amplify your reach.
-
-### ✨ Postable Examples
-
-> **"The top 5 most observed species in my region [Buenos Aires] account for 27% of the total records in that area. Their dominant presence might indicate unique adaptive habits. 🐦📍 #Biodiversity #DataScience"**
-
-> **"New South Wales (Australia) leads in diversity with over 120 distinct species recorded. Real GBIF data reveals unexpected biodiversity hotspots! 🌿🌏 #SQL #OpenData"**
-
-
-## 🚛 How to deliver this project
-
-Once you have finished solving the exercises, be sure to commit your changes, push them to your repository, and go to 4Geeks.com to upload the repository link.
-
-## Solutions
-
-We also incorporated the solution samples in `./src/solution.py` that we strongly suggest you only use if you are stuck for more than 30 minutes or if you have already finished and want to compare it with your approach.
+Proyecto realizado como parte del bootcamp de **Data Science & Machine Learning** en 4Geeks Academy.
