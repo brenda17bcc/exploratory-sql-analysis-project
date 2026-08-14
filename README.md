@@ -1,41 +1,41 @@
-# 🔍 Análisis Exploratorio con SQL — Biodiversidad y Cambio Climático
+# 🔍 Exploratory SQL Analysis — Biodiversity & Climate Change
 
-Proyecto de análisis exploratorio de datos (*EDA*) sobre **biodiversidad y cambio climático**, utilizando datos reales del portal **GBIF**. El objetivo es explorar y analizar la información mediante consultas SQL para descubrir patrones y tendencias.
+Exploratory data analysis (*EDA*) project on **biodiversity and climate change**, using real data from the **GBIF** portal. The goal is to explore and analyze the information through SQL queries to uncover patterns and trends.
 
-## 🎯 Objetivo
+## 🎯 Goal
 
-Trabajar con una base de datos precargada para explorar datos de biodiversidad, ejecutar consultas SQL y comunicar los hallazgos de forma clara.
+Work with a preloaded database to explore biodiversity data, run SQL queries, and communicate the findings clearly.
 
-## 🔧 ¿Qué se hace en el proyecto?
+## 🔧 What the Project Covers
 
-- **Exploración y análisis** de datos en un escenario de biodiversidad y cambio climático.
-- **Consultas SQL** para extraer y analizar información de la base de datos.
-- **Inserción, actualización y eliminación** de datos como parte de una simulación de mantenimiento de calidad de datos.
-- **Visualización de resultados** de las consultas como DataFrames.
+- **Exploration and analysis** of data in a biodiversity and climate change scenario.
+- **SQL queries** to extract and analyze information from the database.
+- **Inserting, updating, and deleting** data as part of a data quality maintenance simulation.
+- **Displaying query results** as DataFrames.
 
-## 🛠️ Tecnologías
+## 🛠️ Tech Stack
 
 - **SQL**
 - **Python**
-- **SQLAlchemy** (conexión a la base de datos)
-- **Pandas** (mostrar resultados como DataFrames)
+- **SQLAlchemy** (database connection)
+- **pandas** (displaying results as DataFrames)
 
-## 📚 Conceptos practicados
+## 📚 Concepts Practiced
 
-- Escritura de consultas SQL para exploración de datos
-- Conexión a bases de datos con SQLAlchemy
-- Manipulación de datos (INSERT, UPDATE, DELETE)
-- Integración de SQL con Pandas
+- Writing SQL queries for data exploration
+- Connecting to databases with SQLAlchemy
+- Data manipulation (INSERT, UPDATE, DELETE)
+- Integrating SQL with pandas
 
-## 🚀 Cómo ejecutarlo
+## 🚀 How to Run
 
-1. Clona el repositorio:
+1. Clone the repository:
 ```bash
    git clone https://github.com/brenda17bcc/exploratory-sql-analysis-project.git
 ```
-2. Abre el proyecto en GitHub Codespaces (recomendado) o en tu entorno local.
-3. Abre el archivo `./src/sql/queries.sql` y ejecuta cada ejercicio.
+2. Open the project in GitHub Codespaces (recommended) or your local environment.
+3. Open the file `./src/sql/queries.sql` and run each exercise.
 
 ---
 
-Proyecto realizado como parte del bootcamp de **Data Science & Machine Learning** en 4Geeks Academy.
+Project completed as part of the **Data Science & Machine Learning** bootcamp at 4Geeks Academy.
